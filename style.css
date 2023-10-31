@@ -12,7 +12,7 @@ section {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin: 110px 0 0 0; 
+    margin: 60px 0 60px 0; 
 }
 
 .container {
@@ -32,7 +32,6 @@ table {
     padding: 12px 31px;
     width: 320px;
     height: 390px;
-    margin-left: 25px;
 }
 
 h1 {
