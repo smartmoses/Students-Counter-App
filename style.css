@@ -1,0 +1,132 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-family: poppins;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    margin: 110px 0 0 0; 
+}
+
+.container {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    padding: 12px 31px;
+    width: 250px;
+    height: 370px;
+    margin-right: 25px;
+}
+
+table {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    padding: 12px 31px;
+    width: 320px;
+    height: 390px;
+    margin-left: 25px;
+}
+
+h1 {
+    color: #c80000;
+    font-family: 'poppins-bold', sans-serif;
+}
+
+div h3 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+div p {
+    font-size: 12px;
+}
+
+.count-display {
+    margin: 20px 0;
+}
+
+div.count-display .counts{
+    border: 1px solid rgb(153, 153, 153);
+    width: 100%;
+}
+
+button {
+    font-size: 24px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #c80000;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+    margin-bottom: 12px;
+}
+
+.arithmetic-section button {
+    font-size: 24px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #c80000;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 48.5%;
+    margin-bottom: 12px;
+}
+
+.arithmetic-section button:hover {
+    background-color: #8d0000;
+}
+
+.button-container .arithmetic-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+#increment{
+    background-color: #007e0f;
+}
+
+#increment:hover {
+    background-color: #00620d;
+}
+
+#reset {
+    background-color: #000000;
+}
+
+#reset:hover {
+    background-color: #1b1b1b;
+}
+
+
+#store {
+    background-color: #ff9500;
+}
+
+#store:hover {
+    background-color: #ff6200;
+}
+
+/* button {
+    font-size: 24px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #007BFF;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+} */
